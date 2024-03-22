@@ -1,17 +1,16 @@
 import { useContext } from "react";
 import { AssetContext } from "../GrandFather/GrandFather";
 
-const Special = () => {
+const Friend = () => {
 
-    // console.log(asset);
     const gift = useContext(AssetContext);
 
     return (
         <div>
-            <h2>Special</h2>
+            <h2>Friend</h2>
             <p>Has: {gift}</p>
         </div>
     );
 };
 
-export default Special;
+export default Friend;
